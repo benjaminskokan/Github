@@ -68,12 +68,20 @@ html, body {
     margin-top: 100px;
     margin: 0 auto;
     height: 500px;
-    width: 900px;
+    width: 1000px;
     border-radius: 5px;
     background-color: rgba(255,255,255,0.95);
     margin-bottom: 100px;
     overflow: auto;
     color: rgb(30,30,30);
+}
+
+
+.trenovanie {
+    float: left;
+    margin: 15px 40px 25px 125px;
+    border-radius: 3px;
+
 }
 
 
@@ -89,6 +97,12 @@ html, body {
     font-weight: bold;
     -webkit-font-smoothing: antialiased;
 }
+.f_art h2 {
+    padding-top: 25px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+}
 
 .f_art p {
     padding: 20px 100px 20px 100px;
@@ -98,7 +112,10 @@ html, body {
     -webkit-font-smoothing: antialiased;
 }
 
-
+.trenovanie_text {
+    margin-top: 40px;
+    text-align: left;
+}
 
 
 #on_this_page {
@@ -168,10 +185,11 @@ html, body {
 }
 
 .s_art {
+    text-align: center;
     margin-top: 100px;
     margin: 0 auto;
     height: 500px;
-    width: 900px;
+    width: 1000px;
     border-radius: 5px;
     background-color: rgba(255,255,255,0.95);
     margin-bottom: 100px;
@@ -192,13 +210,57 @@ html, body {
 
 }
 
+
 .s_art p {
-    padding: 20px 100px 20px 100px;
+    padding: 0 100px 20px 100px;
     font-family: "Raleway", monospace;
     font-size: 14px;
     line-height: 1.4;
     -webkit-font-smoothing: antialiased;
     margin: 25px;
+
+}
+
+.prenajom_img {
+    float: right;
+    margin: 25px 125px 25px 40px;
+    border-radius: 3px;
+
+
+}
+.prenajom_img1 {
+    float: left;
+    margin: 35px 40px 25px 125px;
+    border-radius: 3px;
+
+}
+
+.article {
+    text-align: justify;
+
+}
+
+.head {
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 45px;
+    margin-bottom: -15px;
+}
+.head1 {
+    text-align: justify;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 75px;
+    margin-bottom: -15px;
+}
+.head2 {
+    text-align: justify;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    margin: 75px 15px -35px 125px;
 
 }
 
@@ -219,7 +281,7 @@ html, body {
     margin-top: 100px;
     margin: 0 auto;
     height: 500px;
-    width: 900px;
+    width: 1000px;
     border-radius: 5px;
     background-color: rgba(255,255,255,0.95);
     margin-bottom: 100px;
@@ -240,6 +302,14 @@ html, body {
 
 }
 
+
+.t_art h2 {
+    padding-top: 25px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+}
+
 .t_art p {
     padding: 20px 100px 20px 100px;
     font-family: "Raleway", monospace;
@@ -249,123 +319,25 @@ html, body {
     margin: 25px;
 
 }
-
-#snazime_img {
-    float: left;
-    margin-right: 45px;
-
+.predaj_img {
+    float: right;
+    margin: 0 125px 25px 40px;
+    border-radius: 3px;
 }
 
-#snazime_art {
-    text-align: left;
-}
-
-
-.coach {
-    float: left;
-    border-radius: 50%;
-    margin: 50px;
-    width: 180px;
-    border: 2px solid rgba(0,0,0,0.7);
-
-
-}
-
-.coach1 {
-    float: left;
-    border-radius: 50%;
-    margin: 50px;
-    width: 180px;
-    border: 2px solid #ff7b25;
-
-}
-
-
-.kondomik{
-  position: relative;
-  width: 20%;
-}
-
-
-.kondomik1 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-}
-.coach2 {
-    float: left;
-    border-radius: 50%;
-    margin: 0 50px;
-    width: 180px;
-    border: 2px solid rgba(0,0,0,0.7);
-
-
-}
-
-.coach3 {
-    float: left;
-    border-radius: 50%;
-    margin: 31px 50px 40px 50px;
-    width: 180px;
-    border: 2px solid #ff7b25;
-
-}
-
-
-.kondomik2 {
-  position: relative;
-  width: 20%;
-}
-
-
-.kondomik3 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-}
-
-.kondomik:hover .kondomik1 {
-  opacity: 1;
-}
-
-.kondomik2:hover .kondomik3 {
-  opacity: 1;
-}
-
-#article3 {
-    margin-top: 75px;
-    text-align: left;
-}
-
-#article4 {
-    margin-top: 50px;
-    text-align: left;
-}
 
 
 footer {
     background-color: #01053b;
     color: white;
-    height: 130px;
+    height: 80px;
 
 }
 
 footer ul {
     margin: 0;
-    padding: 30px;
-    margin-left: 150px;
+    padding: 10px;
+    margin-left: 205px;
 }
 
 
@@ -378,15 +350,15 @@ footer ul li {
 }
 
 footer ul li img {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 40px;
 }
 
 .gmail {
-    margin-top: 10px;
+    margin-top: 7px;
 }
 
 
 footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
-    margin: 25px 0 0 5px;
+    margin: 15px 0 0 5px;
 }
