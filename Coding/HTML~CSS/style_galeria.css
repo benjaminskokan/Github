@@ -28,28 +28,6 @@ html, body {
     border-bottom: 4px solid #ff7b25;
 }
 
-.header1 {
-    text-align: center;
-    min-height: 50px;
-    margin-left: 315px;
-}
-
-.header1 li {
-    list-style-type: none;
-    float: left;
-    margin-left: 25px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-}
-
-.header1 li a {
-    text-decoration: none;
-    color: rgb(30,30,30);
-}
-
-.header1 li a:hover {
-    border-bottom: 2px solid #ff7b25;
-}
 
 
 #on_this_page {
@@ -57,6 +35,48 @@ html, body {
 
 }
 
+
+
+/* MAIN CONTENT */
+
+.bas {
+    width: 1000px;
+    margin: 0 auto;
+}
+.image {
+    width: 1100px;
+    height: 50px;
+    margin: 0 auto;
+    background-image: url(img/elipsa.jpg);
+}
+
+.bas .ciary {
+    width: 950px;
+    margin: 0 auto;
+    margin-right: 170px;
+    margin-top: -40px;
+    border: 1 px solid darkblue;
+    padding: 0;
+}
+
+
+
+.bas .ciary tr td {
+    border-right: 2px solid #ff7b25;
+    height: 25px;
+
+}
+
+.tabulka {
+    width: 1075px;
+    margin-left: 120px;
+}
+.tabulka a {
+    font-family: "Montserrat",monospace;
+    text-decoration: none;
+    font-size: 22px;
+    color: darkblue;
+}
 
 .article {
     text-align: justify;
