@@ -36,9 +36,6 @@ html, body {
 }
 
 
-
-/* MAIN CONTENT */
-
 .bas {
     width: 1000px;
     margin: 0 auto;
@@ -77,6 +74,28 @@ html, body {
     font-size: 22px;
     color: darkblue;
 }
+
+
+/* MAIN CONTENT */
+.main {
+    margin-top: 50px;
+}
+
+.main h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.main p {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Raleway", serif;
+}
+
+
+
+/* MAIN CONTENT */
 
 .article {
     text-align: justify;
