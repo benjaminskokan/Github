@@ -1,0 +1,364 @@
+html, body {
+    margin: 0;
+
+}
+
+.header {
+    text-align: center;
+    min-height: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.header li {
+    list-style-type: none;
+    float: left;
+    margin-left: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.header li a {
+    text-decoration: none;
+    color: rgb(30,30,30);
+}
+
+.header li a:hover {
+    border-bottom: 4px solid #ff7b25;
+}
+
+.header1 {
+    text-align: center;
+    min-height: 50px;
+    margin-left: 315px;
+}
+
+.header1 li {
+    list-style-type: none;
+    float: left;
+    margin-left: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
+
+.header1 li a {
+    text-decoration: none;
+    color: rgb(30,30,30);
+}
+
+.header1 li a:hover {
+    border-bottom: 2px solid #ff7b25;
+}
+
+.f_img {
+    border-top: 2px solid #ff7b25;
+    text-align: center;
+    background-image: url(img/f_img_blur.jpg);
+    min-height: 850px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+
+.f_art {
+    margin-top: 100px;
+    margin: 0 auto;
+    height: 500px;
+    width: 1000px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.95);
+    margin-bottom: 100px;
+    overflow: auto;
+    color: rgb(30,30,30);
+}
+
+
+.trenovanie {
+    float: left;
+    margin: 15px 40px 25px 125px;
+    border-radius: 3px;
+
+}
+
+
+.f_art hr {
+    margin: 15px 30% 15px 30%;
+    border: 1px solid #ff7b25;
+    border-radius: 90%;
+}
+
+.f_art h1 {
+    padding-top: 15px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+}
+.f_art h2 {
+    padding-top: 25px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+}
+
+.f_art p {
+    padding: 20px 100px 20px 100px;
+    font-family: "Raleway", monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+}
+
+.trenovanie_text {
+    margin-top: 40px;
+    text-align: left;
+}
+
+
+#on_this_page {
+    border-bottom: 4px solid #ff7b25;
+
+}
+
+
+/* First QUOTE*/
+
+
+#f_quote {
+    margin-top: 50px;
+    margin: 0 auto;
+    min-height: 80px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.9);
+    border: 1px solid #ff7b25;
+}
+
+
+#f_quote p {
+    padding: 10px;
+    color: white;
+    font-family: "Raleway", serif;
+    font-style: italic;
+    font-size: 28px;
+    margin-right: 30px;
+}
+
+#f_quote .author {
+    font-style: normal;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.life {
+    color: #ff7b25;
+    text-decoration: line-through;
+
+}
+
+
+#f_quote .game {
+    color: #ff7b25;
+}
+
+
+
+#f_quote:hover {
+    padding: 10px;
+    transition: 1s ease;
+
+}
+
+.s_img {
+    border-top: 2px solid #ff7b25;
+    background-image: url(img/s_img_blur.jpg);
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.s_art {
+    text-align: center;
+    margin-top: 100px;
+    margin: 0 auto;
+    height: 500px;
+    width: 1000px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.95);
+    margin-bottom: 100px;
+    overflow: auto;
+    color: rgb(30,30,30);
+}
+.s_art hr {
+    margin: 15px 30% 15px 30%;
+    border: 1px solid #ff7b25;
+    border-radius: 90%;
+}
+
+.s_art h1 {
+    padding-top: 15px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+
+.s_art p {
+    padding: 0 100px 20px 100px;
+    font-family: "Raleway", monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    margin: 25px;
+
+}
+
+.prenajom_img {
+    float: right;
+    margin: 25px 125px 25px 40px;
+    border-radius: 3px;
+
+
+}
+.prenajom_img1 {
+    float: left;
+    margin: 35px 40px 25px 125px;
+    border-radius: 3px;
+
+}
+
+.article {
+    text-align: justify;
+
+}
+
+.head {
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 45px;
+    margin-bottom: -15px;
+}
+.head1 {
+    text-align: justify;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 75px;
+    margin-bottom: -15px;
+}
+.head2 {
+    text-align: justify;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    margin: 75px 15px -35px 125px;
+
+}
+
+
+.t_img {
+    border-top: 2px solid #ff7b25;
+    text-align: center;
+    background-image: url(img/t_img_blur.jpg);
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.t_art {
+    margin-top: 100px;
+    margin: 0 auto;
+    height: 500px;
+    width: 1000px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.95);
+    margin-bottom: 100px;
+    overflow: auto;
+    color: rgb(30,30,30);
+}
+.t_art hr {
+    margin: 15px 30% 15px 30%;
+    border: 1px solid #ff7b25;
+    border-radius: 90%;
+}
+
+.t_art h1 {
+    padding-top: 15px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+
+.t_art h2 {
+    padding-top: 25px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+}
+
+.t_art p {
+    padding: 20px 100px 20px 100px;
+    font-family: "Raleway", monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    margin: 25px;
+
+}
+.predaj_img {
+    float: right;
+    margin: 0 125px 25px 40px;
+    border-radius: 3px;
+}
+
+
+
+footer {
+    background-color: #01053b;
+    color: white;
+    height: 80px;
+
+}
+
+footer ul {
+    margin: 0;
+    padding: 10px;
+    margin-left: 205px;
+}
+
+
+
+footer ul li {
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    font-family: "Montserrat", serif;
+}
+
+footer ul li img {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.gmail {
+    margin-top: 7px;
+}
+
+
+footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
+    margin: 15px 0 0 5px;
+}

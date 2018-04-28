@@ -1,3 +1,8 @@
+/* INDEX STYLE */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
 html, body {
     margin: 0;
 
@@ -24,22 +29,28 @@ h1 {
 
 }
 
-.header li a {
-    text-decoration: none;
-    color: rgb(30,30,30);
-}
+
 
 .header li a:hover {
     border-bottom: 4px solid #ff7b25;
 }
 
-.header1 {
+.header1, .header2 {
     text-align: center;
     min-height: 50px;
-    margin-left: 315px;
 }
 
-.header1 li {
+
+
+.header1, .header2 {
+   margin-left: 315px;
+}
+
+.header2 li a:hover {
+    border-bottom: 2px solid #ff7b25;
+}
+
+.header1 li, .header2 li {
     list-style-type: none;
     float: left;
     margin-left: 25px;
@@ -47,12 +58,16 @@ h1 {
     font-size: 24px;
 }
 
-.header1 li a {
+.header1 {
+   margin-right: 215px;
+}
+
+.header1 li a, .header2 li a {
     text-decoration: none;
     color: rgb(30,30,30);
 }
 
-.header1 li a:hover {
+.header1 li a:hover, .header2 li a:hover {
     border-bottom: 2px solid #ff7b25;
 }
 
@@ -307,13 +322,13 @@ h1 {
 }
 
 
-.kondomik{
+.hryzko{
   position: relative;
   width: 20%;
 }
 
 
-.kondomik1 {
+.hryzko1 {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -344,13 +359,13 @@ h1 {
 }
 
 
-.kondomik2 {
+.hryzko2 {
   position: relative;
   width: 20%;
 }
 
 
-.kondomik3 {
+.hryzko3 {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -362,11 +377,11 @@ h1 {
   transition: .5s ease;
 }
 
-.kondomik:hover .kondomik1 {
+.hryzko:hover .hryzko1 {
   opacity: 1;
 }
 
-.kondomik2:hover .kondomik3 {
+.hryzko2:hover .hryzko3 {
   opacity: 1;
 }
 
@@ -379,6 +394,181 @@ h1 {
     margin-top: 50px;
     text-align: left;
 }
+
+
+footer {
+    background-color: #01053b;
+    color: white;
+    height: 80px;
+
+}
+footer ul {
+    margin: 0;
+    padding: 10px;
+    margin-left: 205px;
+}
+
+
+
+footer ul li {
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    font-family: "Montserrat", serif;
+}
+
+footer ul li img {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.gmail {
+    margin-top: 7px;
+}
+
+
+footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
+    margin: 15px 0 0 5px;
+}
+
+/* STYLE PONUKAME */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+.header li a {
+    text-decoration: none;
+    color: rgb(30,30,30);
+}
+
+
+.trenovanie {
+    float: left;
+    margin: 15px 40px 25px 125px;
+    border-radius: 3px;
+
+}
+
+
+
+
+.trenovanie_text {
+    margin-top: 40px;
+    text-align: left;
+}
+
+
+.s_img {
+    border-top: 2px solid #ff7b25;
+    background-image: url(img/s_img_blur.jpg);
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.s_art {
+    text-align: center;
+    margin-top: 100px;
+    margin: 0 auto;
+    height: 500px;
+    width: 1000px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.95);
+    margin-bottom: 100px;
+    overflow: auto;
+    color: rgb(30,30,30);
+}
+.s_art hr {
+    margin: 15px 30% 15px 30%;
+    border: 1px solid #ff7b25;
+    border-radius: 90%;
+}
+
+.s_art h1 {
+    padding-top: 15px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+
+.s_art p {
+    padding: 0 100px 20px 100px;
+    font-family: "Raleway", monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    margin: 25px;
+
+}
+
+.prenajom_img {
+    float: right;
+    margin: 25px 125px 25px 40px;
+    border-radius: 3px;
+
+
+}
+.prenajom_img1 {
+    float: left;
+    margin: 35px 40px 25px 125px;
+    border-radius: 3px;
+
+}
+
+.article {
+    text-align: justify;
+
+}
+
+.head {
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 45px;
+    margin-bottom: -15px;
+}
+.head1 {
+    text-align: justify;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 75px;
+    margin-bottom: -15px;
+}
+.head2 {
+    text-align: justify;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    margin: 75px 15px -35px 125px;
+
+}
+
+
+.t_img {
+    border-top: 2px solid #ff7b25;
+    text-align: center;
+    background-image: url(img/t_img_blur.jpg);
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+
+.predaj_img {
+    float: right;
+    margin: 0 125px 25px 40px;
+    border-radius: 3px;
+}
+
 
 
 footer {
@@ -413,6 +603,182 @@ footer ul li img {
 }
 
 
+footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {    margin: 15px 0 0 5px;
+}
+
+/* STYLE GALERY */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.bas {
+    width: 1000px;
+    margin: 0 auto;
+}
+.image {
+    width: 1100px;
+    height: 50px;
+    margin: 0 auto;
+    background-image: url(img/elipsa.jpg);
+}
+
+.bas .ciary {
+    width: 950px;
+    margin: 0 auto;
+    margin-right: 170px;
+    margin-top: -40px;
+    border: 1 px solid darkblue;
+    padding: 0;
+}
+
+
+
+.bas .ciary tr td {
+    border-right: 2px solid #ff7b25;
+    height: 25px;
+
+}
+
+.tabulka {
+    width: 1075px;
+    margin-left: 120px;
+}
+.tabulka a {
+    font-family: "Montserrat",monospace;
+    text-decoration: none;
+    font-size: 22px;
+    color: darkblue;
+}
+
+
+/* MAIN CONTENT */
+.main {
+    margin-top: 50px;
+}
+
+.main h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.main p {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Raleway", serif;
+}
+
+/* MAIN CONTENT */
+
+.article {
+    text-align: justify;
+
+}
+
+.head {
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 45px;
+    margin-bottom: -15px;
+}
+
+.head1 {
+    text-align: justify;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 75px;
+    margin-bottom: -15px;
+}
+
+.head2 {
+    text-align: justify;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    margin: 75px 15px -35px 125px;
+
+}
+
+footer {
+    background-color: #01053b;
+    color: white;
+    height: 80px;
+
+}
+
+footer ul {
+    margin: 0;
+    padding: 10px;
+    margin-left: 205px;
+}
+
+
+
+footer ul li {
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    font-family: "Montserrat", serif;
+}
+
+footer ul li img {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.gmail {
+    margin-top: 7px;}
+
+
 footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
     margin: 15px 0 0 5px;
+}
+/* STYLE TRENINGY */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+#rozdelenie {
+   font-family: "Raleway", fantasy;
+}
+
+#rozdelenie tr td {
+   padding: 10px 0;
+   border: 1 px solid black;
+
+}
+
+
+
+
+footer {
+    background-color: #01053b;
+    color: white;
+    height: 80px;
+
+}
+
+footer ul {
+    padding: 10px;
+    margin-left: 205px;
+}
+
+footer ul li {
+   margin-top: 5px;
+   list-style-type: none;
+   float: left;
+   text-align: center;
+   font-family: "Montserrat", serif;
+}
+
+footer ul li img {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.gmail {
+    margin-top: 7px;
+}
+
+footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
+    margin: 20px 0 0 5px;
 }
