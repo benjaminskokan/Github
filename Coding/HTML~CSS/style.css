@@ -660,8 +660,6 @@ footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
     font-family: "Roboto", serif;
 }
 
-/* MAIN CONTENT */
-
 .article {
     text-align: justify;
 
@@ -692,6 +690,13 @@ footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
     margin: 75px 15px -35px 125px;
 
 }
+
+#shadowbox {
+   width: 1040px;
+   margin: 0 auto;
+   padding: 10px;
+}
+
 
 footer {
     background-color: #01053b;
