@@ -112,7 +112,7 @@ h1 {
 
 .f_art p {
     padding: 20px 100px 20px 100px;
-    font-family: "Raleway", monospace;
+    font-family: "Roboto", monospace;
     font-size: 14px;
     line-height: 1.4;
     -webkit-font-smoothing: antialiased;
@@ -144,7 +144,7 @@ h1 {
 #f_quote p {
     padding: 10px;
     color: white;
-    font-family: "Raleway", serif;
+    font-family: "Roboto", serif;
     font-style: italic;
     font-size: 28px;
     margin-right: 30px;
@@ -214,7 +214,7 @@ h1 {
 
 .s_art p {
     padding: 20px 100px 20px 100px;
-    font-family: "Raleway", monospace;
+    font-family: "Roboto", monospace;
     font-size: 14px;
     line-height: 1.4;
     -webkit-font-smoothing: antialiased;
@@ -281,7 +281,7 @@ h1 {
 
 .t_art p {
     padding: 20px 100px 20px 100px;
-    font-family: "Raleway", monospace;
+    font-family: "Roboto", monospace;
     font-size: 14px;
     line-height: 1.4;
     -webkit-font-smoothing: antialiased;
@@ -498,7 +498,7 @@ footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
 
 .s_art p {
     padding: 0 100px 20px 100px;
-    font-family: "Raleway", monospace;
+    font-family: "Roboto", monospace;
     font-size: 14px;
     line-height: 1.4;
     -webkit-font-smoothing: antialiased;
@@ -525,13 +525,6 @@ footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
 
 }
 
-.head {
-    font-family: "Montserrat",sans-serif;
-    font-size: 18px;
-    -webkit-font-smoothing: antialiased;
-    margin-top: 45px;
-    margin-bottom: -15px;
-}
 .head1 {
     text-align: justify;
     font-family: "Montserrat",sans-serif;
@@ -664,7 +657,7 @@ footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
     width: 1000px;
     margin: 0 auto;
     text-align: center;
-    font-family: "Raleway", serif;
+    font-family: "Roboto", serif;
 }
 
 /* MAIN CONTENT */
@@ -678,7 +671,7 @@ footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
     font-family: "Montserrat",sans-serif;
     font-size: 18px;
     -webkit-font-smoothing: antialiased;
-    margin-top: 45px;
+    margin-top: 55px;
     margin-bottom: -15px;
 }
 
@@ -738,7 +731,7 @@ footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
 #rozdelenie {
-   font-family: "Raleway", fantasy;
+   font-family: "Roboto", fantasy;
 }
 
 #rozdelenie tr td {
