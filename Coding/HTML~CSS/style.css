@@ -42,8 +42,12 @@ h1 {
 
 
 
-.header1, .header2 {
+.header1,  {
    margin-left: 315px;
+}
+
+.header2 {
+   margin-left: 350px;
 }
 
 .header2 li a:hover {
@@ -59,7 +63,7 @@ h1 {
 }
 
 .header1 {
-   margin-right: 215px;
+   margin-left: 315px;
 }
 
 .header1 li a, .header2 li a {
@@ -176,51 +180,6 @@ h1 {
 
 }
 
-.s_img {
-    border-top: 2px solid #ff7b25;
-    background-image: url(img/s_img_blur.jpg);
-    min-height: 600px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 100px;
-}
-
-.s_art {
-    margin-top: 100px;
-    margin: 0 auto;
-    height: 500px;
-    width: 1000px;
-    border-radius: 5px;
-    background-color: rgba(255,255,255,0.95);
-    margin-bottom: 100px;
-    overflow: auto;
-    color: rgb(30,30,30);
-}
-.s_art hr {
-    margin: 15px 30% 15px 30%;
-    border: 1px solid #ff7b25;
-    border-radius: 90%;
-}
-
-.s_art h1 {
-    padding-top: 15px;
-    font-family: "Montserrat",sans-serif;
-    font-weight: bold;
-    -webkit-font-smoothing: antialiased;
-
-}
-
-.s_art p {
-    padding: 20px 100px 20px 100px;
-    font-family: "Roboto", monospace;
-    font-size: 14px;
-    line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
-    margin: 25px;
-
-}
 
 #history {
     text-align: center;
@@ -352,7 +311,7 @@ h1 {
 .coach3 {
     float: left;
     border-radius: 50%;
-    margin: 50px 50px 40px 120px;
+    margin: 52px 50px 40px 120px;
     width: 180px;
     border: 2px solid #ff7b25;
 
@@ -391,45 +350,10 @@ h1 {
 }
 
 #article4 {
-    margin-top: 50px;
+    margin-top: 75px;
     text-align: left;
 }
 
-
-footer {
-    background-color: #01053b;
-    color: white;
-    height: 80px;
-
-}
-footer ul {
-    margin: 0;
-    padding: 10px;
-    margin-left: 205px;
-}
-
-
-
-footer ul li {
-    list-style-type: none;
-    float: left;
-    text-align: center;
-    font-family: "Montserrat", serif;
-}
-
-footer ul li img {
-    margin-top: 10px;
-    margin-left: 40px;
-}
-
-.gmail {
-    margin-top: 7px;
-}
-
-
-footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
-    margin: 15px 0 0 5px;
-}
 
 /* STYLE PONUKAME */
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -449,9 +373,6 @@ footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
 
 }
 
-
-
-
 .trenovanie_text {
     margin-top: 40px;
     text-align: left;
@@ -467,6 +388,18 @@ footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
+}
+
+.s_img1 {
+   border-top: 2px solid #ff7b25;
+   background-image: url(img/s_img_blur.jpg);
+   min-height: 600px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 100px;
+   margin-bottom: -20px;
 }
 
 .s_art {
@@ -553,6 +486,7 @@ footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
+    margin-bottom: -20px;
 }
 
 
@@ -560,43 +494,6 @@ footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
     float: right;
     margin: 0 125px 25px 40px;
     border-radius: 3px;
-}
-
-
-
-footer {
-    background-color: #01053b;
-    color: white;
-    height: 80px;
-
-}
-
-footer ul {
-    margin: 0;
-    padding: 10px;
-    margin-left: 205px;
-}
-
-
-
-footer ul li {
-    list-style-type: none;
-    float: left;
-    text-align: center;
-    font-family: "Montserrat", serif;
-}
-
-footer ul li img {
-    margin-top: 10px;
-    margin-left: 40px;
-}
-
-.gmail {
-    margin-top: 7px;
-}
-
-
-footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {    margin: 15px 0 0 5px;
 }
 
 /* STYLE GALERY */
@@ -697,55 +594,41 @@ footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
    padding: 10px;
 }
 
-
-footer {
-    background-color: #01053b;
-    color: white;
-    height: 80px;
-
-}
-
-footer ul {
-    margin: 0;
-    padding: 10px;
-    margin-left: 205px;
-}
-
-
-
-footer ul li {
-    list-style-type: none;
-    float: left;
-    text-align: center;
-    font-family: "Montserrat", serif;
-}
-
-footer ul li img {
-    margin-top: 10px;
-    margin-left: 40px;
-}
-
-.gmail {
-    margin-top: 7px;}
-
-
-footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
-    margin: 15px 0 0 5px;
-}
 /* STYLE TRENINGY */
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
 #rozdelenie {
    font-family: "Roboto", fantasy;
-}
-
-#rozdelenie tr td {
-   padding: 10px 0;
-   border: 1 px solid black;
+   border-spacing: 10px;
+   margin: 0 auto;
 
 }
 
+#rozdelenie td {
+   padding: 10px 0px;
 
+}
+
+#rozdelenie td:nth-child(2) {
+   font-size: 16px;
+   text-align: justify;
+}
+
+.photos {
+   margin-left: 10px;
+}
+
+.main #shadowbox .text {
+   width: 600px;
+   padding: 0px 20px 20px 20px;
+}
+
+#shadowbox {
+   border: 2px solid black;
+   margin-bottom: 35px;
+   border-radius: 5px;
+   background-color: #ff7b25;
+}
 
 
 footer {
@@ -779,4 +662,22 @@ footer ul li img {
 
 footer ul li:nth-child(3),footer ul li:nth-child(5), footer ul li:nth-child(7) {
     margin: 20px 0 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
 }
